@@ -23,5 +23,6 @@ with open("my_notes.txt", "r") as archivo:
     while linea:
         print(linea.strip())
         linea = archivo.readline()
-
+# Cerrar el archivo
+archivo.close()
 
